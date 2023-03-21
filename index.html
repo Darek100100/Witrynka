@@ -2,29 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <title>Responsive Hamburger Menu</title>
 </head>
 <body>
-    
     <nav>
-        <img class="logo" src="ptak.png" alt="">
-
+        <img alt="" class="logo" src="ptak.png">
 
         <ul>
-            <li><a href="index.html" <div class="nav">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-			
-			
-			
+            <li><a href="index.html"><div class="nav">Home</div></a></li>
+            <li><a href="list.html"><div class="nav">About</div></a></li>
+            <li><a href="paragraphs.html"><div class="nav">Portfolio</div></a></li>
+            <li><a href="#"><div class="nav">Contact</div></a></li>
         </ul>
-		
-		
 
         <button class="burger">
             <div class="line"></div>
@@ -33,48 +26,38 @@
         </button>
     </nav>
 
+    <div id="content">
+        <div class="slider">
+            <div class="slider-item active">
+                <img alt="Image 1" src="image1.jpg">
+            </div>
+            <div class="slider-item">
+                <img alt="Image 2" src="image2.jpg">
+            </div>
+            <div class="slider-item">
+                <img alt="Image 3" src="image3.jpg">
+            </div>
+        </div>
 
-<script>
+        <div class="container">
+            <div class="column">
+                <img alt="Image 1" src="image1.jpg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae.</p>
+            </div>
+            <div class="column">
+                <img alt="Image 2" src="image2.jpg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae.</p>
+            </div>
+            <div class="column">
+                <img alt="Image 3" src="image3.jpg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae.</p>
+            </div>
+        </div>
+    </div>
 
-
-const mobileNav = document.querySelector('ul');
-const burgerIcon = document.querySelector('.burger');
-
-
-
-burgerIcon.addEventListener('click', function(){
-    mobileNav.classList.toggle('active');
-    burgerIcon.classList.toggle('active'); 
-   
-})
-
-
-
-
-</script>
-
-<div id="content">
-		<span class="bigtitle"> Dlaczego nasza firma? </span>
-		<div style="height: 15px;"></div>
-		<div class="dottedline"></div>
-			<br/><br/>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur faucibus facilisis. Ut quam urna, accumsan ac ipsum iaculis, vulputate pellentesque risus. Aenean eu sollicitudin sapien. Curabitur suscipit blandit augue ut imperdiet. Praesent urna felis, pellentesque ut eleifend at, pretium at sapien. Fusce ac enim eget magna vehicula ultrices. Praesent venenatis risus non eleifend auctor. Suspendisse potenti. Curabitur lobortis lorem est, sed vehicula enim dapibus a. Mauris tempus lectus sed iaculis volutpat. Integer lorem sem, efficitur quis magna sit amet, interdum egestas sapien. Ut in lacinia mi. Phasellus scelerisque, nulla eget accumsan faucibus, justo augue mattis dui, vel varius risus metus id orci. Donec ornare ac elit in dictum.
-
-Cras at nulla at enim convallis lobortis suscipit sit amet tellus. Suspendisse auctor tincidunt est nec vehicula. Donec malesuada eros et interdum accumsan. Mauris vitae pretium lorem. Donec tempor lacinia purus id fermentum. Nulla at dolor quis nisi varius euismod et quis quam. Vestibulum nec tellus eget turpis pretium dapibus eu nec purus. Vivamus a eros congue, tristique eros mattis, lacinia eros. In faucibus id purus sed scelerisque. Vivamus lobortis mi ante, sed sagittis nunc fermentum ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla tempus interdum euismod.
-
-Nunc aliquet turpis at tortor ultricies feugiat. Praesent ligula erat, suscipit sit amet scelerisque id, vehicula et dolor. Morbi ac nulla nisi. Curabitur rutrum viverra libero, sed viverra elit. Maecenas vel eros ac lectus blandit ultricies. Nam ac mauris lacinia, tempor ante sed, pretium mi. Fusce ultrices facilisis diam, quis efficitur dui ultricies ac. Curabitur vitae condimentum diam. Integer laoreet sapien eu erat porta, ultrices dignissim elit iaculis. Pellentesque cursus, nibh in maximus mattis, nibh lectus finibus lacus, condimentum congue diam velit sit amet augue. Maecenas nec rutrum justo.
-
-Curabitur neque elit, dapibus ac semper a, laoreet et nunc. Donec malesuada nisi vitae arcu molestie scelerisque. Ut semper congue ornare. Etiam neque nibh, faucibus ac metus ut, bibendum convallis neque. Maecenas tincidunt, erat et efficitur fermentum, ante leo condimentum quam, a viverra est neque sit amet ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices purus at magna faucibus iaculis. Phasellus id lectus a nibh convallis placerat sit amet sit amet magna.
-
-Donec et nunc mi. Vivamus non tempus risus. Mauris finibus enim velit, eu ultrices magna feugiat et. Nulla ut magna in nunc tincidunt lobortis. Sed nisl nibh, elementum et ligula in, gravida interdum sem. Sed rhoncus eleifend facilisis. Nunc auctor congue ipsum nec placerat. Proin mattis mollis ultricies. Vivamus odio nunc, commodo vel sollicitudin eget, commodo non tortor. Suspendisse dictum enim elit, ornare rutrum quam mollis in. Vivamus et leo tellus. Praesent sit amet lorem non elit scelerisque vestibulum. Sed blandit mauris feugiat arcu tempus tincidunt. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin mauris turpis, gravida non arcu non, tempus feugiat risus.
-		</div>
-
-
-
-
-	<div id="footer">
-			Poznaj firme naszą firme - To doświadczenie i dokładność. Strona w sieci od 2023 © Wszelkie prawa zastrzeżone.
-	</div>
-
+    <div id="footer">
+        Poznaj firme naszą firme - To doświadczenie i dokładność. Strona w sieci od 2023 © Wszelkie prawa zastrzeżone.
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
