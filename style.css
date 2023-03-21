@@ -216,11 +216,18 @@ a:hover::after {
     justify-content: center;
     align-items: center;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+.grid-item {
+    padding: 20px;
+    text-align: center;
+}
 
 
-
-
-#footer
+footer
 {
 	clear: both;
 	color: black;
@@ -228,5 +235,4 @@ a:hover::after {
 	padding: 20px;
 	font-size: 14px;
 	background-color: rgb(245, 245, 245);
-	
 }
