@@ -172,6 +172,13 @@ a:hover::after {
 .slider-item.active {
     display: block;
 }
+table {
+    table-layout: auto;
+    border-spacing: 20px;
+}
+tr:nth-child(1) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
 
 .container {
     display: flex;
