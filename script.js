@@ -1,4 +1,4 @@
-const mobileNav = document.querySelector('ul');
+const mobileNav = document.querySelector('.ul-navigation');
 const burgerIcon = document.querySelector('.burger');
 
 document.addEventListener('DOMContentLoaded', function() {

@@ -111,7 +111,7 @@ a:hover::after {
 
 
 
-    ul {
+    .ul-navigation {
         position: absolute;
         right: 0;
         top: 8vh;
@@ -230,7 +230,6 @@ tr:nth-child(1) {
     display: block;
     justify-content: center;
     align-items: center;
-    z-index: 100;
 }
 .grid-container {
     display: grid;
